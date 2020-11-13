@@ -3,6 +3,9 @@
 @import "~quill/dist/quill.snow.css";
 
 :root {
+  //background: linear-gradient(#FFC0CB, #9198e5);
+  background: linear-gradient(170deg, #F0F8FF, #B0E0E6);
+  min-height: 700px;
   --primary-color: #dc3545;
   --dark-color: #333333;
   --light-color: #f4f4f4;
@@ -20,7 +23,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background-color: #fff;
+  //background-color: #fff;
   color: #333;
 }
 
@@ -260,6 +263,16 @@ table th {
   background: var(--light-color);
 }
 
+.title{
+  h1{
+    font-family: Vogue;
+    text-shadow: 1px 5px 3px #696969;
+    font-size: 80px;
+    color: black;
+  }
+  border-bottom: 1px solid var(--dark-color);
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -271,9 +284,16 @@ table th {
   margin-bottom: 1rem;
 
   &.main {
-    justify-content: center;
+    justify-content: left;
+    padding: 0.3rem 0.5rem;
     border-bottom: 1px solid var(--dark-color);
   }
+  h3{
+    font-family: Vogue;
+    color: #111111;
+    margin: 0.5rem 0.7rem;
+  }
+
 
   ul {
     display: flex;
